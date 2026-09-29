@@ -2,6 +2,7 @@ api:
   url: "https://dev-venueapi.smarttab.com/api/v1"
 auth:
   admin:
+    Hhhhh: "xfghj"
     base_url: "https://admin-dv-test.smarttab.com"
     login_url: "https://admin-dv-test.smarttab.com/site/login"
     ticketing_entry_url: "https://admin-dv-test.smarttab.com/site/ticketing-reports"
