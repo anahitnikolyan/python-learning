@@ -1,0 +1,27 @@
+api:
+  url: "https://dev-venueapi.smarttab.com/api/v1"
+auth:
+  admin:
+    base_url: "https://admin-dv-test.smarttab.com"
+    login_url: "https://admin-dv-test.smarttab.com/site/login"
+    ticketing_entry_url: "https://admin-dv-test.smarttab.com/site/ticketing-reports"
+    ticketing_base_url: "https://dev-venue.smarttab.com"
+  client_id: "vc-offlimits-dv-test"
+  login_url: "https://auth-dv-test.smarttab.com/authorize/login"
+  redirect_uri: "https://offlimits-dv-test.smarttab.com/"
+base_url: "https://offlimits-dv-test.smarttab.com"
+database: "dev"
+events_url: "https://offlimits-dv-test.smarttab.com/venue/1/events/events-public?dashboardRoute=%2Fdashboard%2Fevents"
+integrations:
+  ui:
+    # Dedicated existing venue named "Uber doordash test venue".
+    venue_id: 8
+stripe:
+  card:
+    expired:
+      number: "4000 0000 0000 0069"
+      date: "01/31:01 / 31"
+    valid:
+      number: "4242 4242 4242 4242"
+      date: "01/31:01 / 31"
+venue_api_url: "https://api-offlimits-dv-test.smarttab.com/api"
